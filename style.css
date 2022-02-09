@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.8s;
+    border-radius: 15px;
+    color: black;
+}
+button:nth-child(1){
+    background-color: green;
+}
+button:nth-child(2){
+    background-color: yellow;
+}
+button:nth-child(3){
+    background-color: red;
+}
+button:nth-child(4){
+    background-color: goldenrod;
+}
+
+button:hover{
+    background-color: gray;
+    color: black;
+}
